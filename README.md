@@ -2,7 +2,7 @@
 Implementation of Autoencoders and Variational Autoencoders using PyTorch on the MNIST dataset.
 
 
-### Autoencoder
+### Autoencoder[https://github.com/ruaa60/Autoencoder/blob/main/autoencoder.ipynb]
 Autoencoders learn compressed representations by encoding input data into a lower-dimensional latent space and then reconstructing it back to the original space.
 
 **Loss Function**: Mean Squared Error (MSE)
