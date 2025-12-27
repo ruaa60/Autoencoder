@@ -1,14 +1,15 @@
-# Autoencoder & Variational Autoencoder Implementation
-Implementation of Autoencoders and Variational Autoencoders using PyTorch on the MNIST dataset.
+# Autoencoder & Variational Autoencoder 
+Implementations of Autoencoders and Variational Autoencoders using PyTorch.  
 
 
-### Autoencoder
-Autoencoders learn compressed representations by encoding input data into a lower-dimensional latent space and then reconstructing it back to the original space.
+###  Autoencoder
 
-**Loss Function**: Mean Squared Error (MSE)
+Autoencoders learn compressed representations of input data by encoding it into a lower-dimensional latent space and then reconstructing the original input from this compressed representation.  
+**Loss Function:** Mean Squared Error (MSE) 
 
-### Variational Autoencoder
-VAEs are generative models that learn a probabilistic mapping to the latent space, enabling sampling and generation of new data.
+---
 
-**Loss Function**: Reconstruction Loss + KL Divergence
+###  Variational Autoencoder (VAE)
 
+VAEs are generative models that learn a *probabilistic* mapping to the latent space, allowing generation of new data points.  
+**Loss Function:** Reconstruction Loss + KL Divergence 
